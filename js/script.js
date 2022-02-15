@@ -13,7 +13,9 @@ if (userChoice == 'add') {
 } else if (userChoice == 'mult') {
     const multNumber = firstNumber * secondNumber;
     alert(`Результат: ${firstNumber}*${secondNumber}=${multNumber}`);
-} else {
+} else if (userChoice == 'div') {
     const devNumber = firstNumber / secondNumber;
     alert(`Результат: ${firstNumber}/${secondNumber}=${devNumber}`);
+} else {
+    alert('Ошибка');
 }
